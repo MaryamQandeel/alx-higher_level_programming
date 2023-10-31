@@ -4,4 +4,4 @@ for i in range(0, 100):
         print("0{:d}".format(i), end=", ")
     if i
     else:
-        print("{:d}".format(i), end="\n"if i == 99 else end=", ")
+        print("{:d}".format(i), end="\n" if i == 99 else end=", ")
