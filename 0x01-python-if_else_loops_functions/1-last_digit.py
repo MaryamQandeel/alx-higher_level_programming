@@ -5,10 +5,10 @@ if number > 0:
     ld = number % 10
 else:
     ld = number % -10
-    line = "Last digit of {:d} is {:d} and is"
+    line = "Last digit of "
 if ld > 5:
-    print("{} greater than 5".format(line, number, ld))
+    print("{}{:d} is {:d} and is greater than 5".format(line, number, ld))
 elif ld == 0:
-    print("{} 0".format(line, number, ld))
+    print("{}{:d} is {:d} and is 0".format(line, number, ld))
 else:
-    print("{} less than 6 and not 0".format(line, number, ld))
+    print("{}{:d} is {:d} and is less than 6 and not 0".format(line, number, ld))
