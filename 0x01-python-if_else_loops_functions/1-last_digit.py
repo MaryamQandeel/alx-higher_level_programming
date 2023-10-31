@@ -11,4 +11,5 @@ if ld > 5:
 elif ld == 0:
     print("{}{:d} is {:d} and is 0".format(line, number, ld))
 else:
-    print("{}{:d} is {:d} and is less than 6 and not 0".format(line, number, ld))
+    less = "and is less than 6 and not"
+    print("{}{:d} is {:d} {}".format(line, number, ld, less))
