@@ -7,7 +7,7 @@ else:
     ld = number % -10
     line = "Last digit of {:d} is {:d} and is"
 if ld > 5:
-    print("{} greater than 5".format(line,number, ld))
+    print("{} greater than 5".format(line, number, ld))
 elif ld == 0:
     print("{} 0".format(line, number, ld))
 else:
