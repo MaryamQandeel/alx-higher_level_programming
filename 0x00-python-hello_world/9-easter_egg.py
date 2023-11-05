@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-import The-Zen-of-Python
-print(a)
+import this
